@@ -67,14 +67,13 @@ export async function getTwoDayBlock(client = getApollo()) {
     fetchPolicy: "network-only",
   });
 
-  return { number: Number(blocksData?.blocks[0].number) };
+  return { number: Number(blocksData?.blocks[0]?.number || "894856") };
 }
 
 export async function getSevenDayBlock(client = getApollo()) {
   const date = startOfMinute(subWeeks(Date.now(), 1));
   const start = Math.floor(date / 1000);
   const end = Math.floor(date / 1000) + 600;
-
   const { data: blocksData } = await client.query({
     query: blockQuery,
     variables: {
@@ -87,7 +86,7 @@ export async function getSevenDayBlock(client = getApollo()) {
     fetchPolicy: "network-only",
   });
 
-  return { number: Number(blocksData?.blocks[0].number) };
+  return { number: Number(blocksData?.blocks[0]?.number || "894856") };
 }
 
 export async function getFarmReweightingBlock(client = getApollo()) {

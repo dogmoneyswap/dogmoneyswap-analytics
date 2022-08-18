@@ -10,7 +10,7 @@ export const TokenInfo = {
     website: 'https://token.com',
     whitepaper: 'https://token.com/whitepaper.pdf',
   },
-  "0x5fa664f69c2a4a3ec94fac3cbf7049bd9ca73129": {
+  "0x95d366dc75ee657a977683d84546163b4e905a15": {
     description: 'Mist is the native token of the MistSwap protocol.',
     discord: 'https://discord.com/invite/mistswapdex',
     docs: 'https://docs.mistswap.fi',
@@ -21,7 +21,7 @@ export const TokenInfo = {
     website: 'https://mistswap.fi',
     whitepaper: null,
   },
-  "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04": {
+  "0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101": {
     description: 'Wrapped BCH is an utility token allowing to swap BCH with other SEP20 compatible tokens.',
     discord: null,
     docs: null,

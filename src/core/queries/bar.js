@@ -1,7 +1,7 @@
 import gql from "graphql-tag";
 
 export const barQuery = gql`
-  query barQuery($id: String! = "0xc41c680c60309d4646379ed62020c534eb67b6f4") {
+  query barQuery($id: String! = "0x5108e68a50cfa3306c643af1bc8b105597c823d9") {
     bar(id: $id) {
       id
       totalSupply

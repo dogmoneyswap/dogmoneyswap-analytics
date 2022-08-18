@@ -100,7 +100,7 @@ function UserPage() {
     data: { token },
   } = useQuery(tokenQuery, {
     variables: {
-      id: "0x5fa664f69c2a4a3ec94fac3cbf7049bd9ca73129",
+      id: "0x95d366dc75ee657a977683d84546163b4e905a15",
     },
   });
 
@@ -315,17 +315,17 @@ function UserPage() {
                           imgProps={{ loading: "lazy" }}
                           alt="MIST"
                           src={`https://raw.githubusercontent.com/mistswapdex/assets/master/blockchains/smartbch/assets/${toChecksumAddress(
-                            "0x5fa664f69c2a4a3ec94fac3cbf7049bd9ca73129"
+                            "0x95d366dc75ee657a977683d84546163b4e905a15"
                           )}/logo.png`}
                         />
                         <Link
-                          href={`/tokens/0x5fa664f69c2a4a3ec94fac3cbf7049bd9ca73129`}
+                          href={`/tokens/0x95d366dc75ee657a977683d84546163b4e905a15`}
                           variant="body2"
                           noWrap
                         >
                           MIST
                         </Link>
-                        {/* <Link href={`/tokens/0xc41c680c60309d4646379ed62020c534eb67b6f4`} variant="body2" noWrap>
+                        {/* <Link href={`/tokens/0x5108e68a50cfa3306c643af1bc8b105597c823d9`} variant="body2" noWrap>
                         xMIST
                       </Link> */}
                       </Box>

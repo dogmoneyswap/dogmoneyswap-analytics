@@ -15,7 +15,7 @@ export const POOL_DENY = [
   // "14", "29", "45", "30"
 ];
 
-export const SUSHI_TOKEN = "0x5fa664f69c2a4a3ec94fac3cbf7049bd9ca73129";
+export const SUSHI_TOKEN = "0x95d366dc75ee657a977683d84546163b4e905a15";
 
 export const FIRST_REWEIGHT_TIME = 1634446800000;
 
